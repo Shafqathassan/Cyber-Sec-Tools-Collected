@@ -1,6 +1,6 @@
 #Author : ShafqatHassan
 #Dated : 28th; of Feb 2023
-#Reop : Shafqathassan/Cyber-Sec_Tools
+#Repo : Shafqathassan/Cyber-Sec_Tools
 
 from cryptography.fernet import Fernet
 
