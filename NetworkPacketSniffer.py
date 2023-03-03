@@ -3,9 +3,14 @@
 #Repo : Shafqathassan/Cyber-Sec_Tools
 #HelpFrom : TheNewBoston
 
- 
+
+#Sockets and the socket API are used to send messages across a network. 
 import socket
+
+#Struct module performs conversions between Python values and C structs represented as Python bytes objects.
 import struct
+
+#Textwrap module can be used for wrapping and formatting of plain text. 
 import textwrap
 
 
