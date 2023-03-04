@@ -29,15 +29,18 @@ DATA_TAB_1 = '\t\t\t\t '
 
 def main():
     conn = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
-
+    #The AF_PACKET socket in Linux allows an application to receive and send raw packets.
+    #Once an application creates a socket of type SOCK_RAW, this socket may be used to send and receive data. 
+    #socket. ntohs captures all the send & receive traffic from the network interface.
+    
     while True:
         raw_data, addr = conn.recvfrom(65536)
         dest_mac, src_mac, eth_proto, data = ethernet_frame(raw_data)
         print("\nEthernet frame: ")
         print(TAB_1 + 'Destination: {}, source: {}, proto: {}'.format(dest_mac, src, eth_proto))
 
-
-        #8 for IPv4
+        
+        #8 for IPv4 
         if eth_proto == 8:
             (version, header_length, ttl, proto, srfc, target, data) =ipv4_packet(data)            
             print(TAB_1 + 'ipV4 packet: ')
