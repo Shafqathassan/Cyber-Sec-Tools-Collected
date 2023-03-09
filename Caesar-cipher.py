@@ -1,3 +1,7 @@
+#Author : ShafqatHassan
+#Dated : 8th; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
+
 def encrypt(text,s):
 result = ""
    # transverse the plain text
