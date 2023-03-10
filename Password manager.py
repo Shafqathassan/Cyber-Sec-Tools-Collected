@@ -57,6 +57,7 @@ class PassswordManager :
 
 
     def  main():
+        # Passwords of different accounts like email, facebook, youtube, github etc . 
         password= {
             "email": "1234567",
             "facebook": "myfb",
