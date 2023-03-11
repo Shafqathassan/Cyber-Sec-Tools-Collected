@@ -7,12 +7,17 @@ import string
 
 password = input("Enter the password: ")
 
-
+#string ascii_uppercase will give the uppercase letters ‘ABCDEFGHIJKLMNOPQRSTUVWXYZ’.
 upper_case = any([1 if c in string.ascii_uppercase else 0 for c in password])
-lower_case = any([1 if c in string.ascii_lowercase else 0 for c in password])
-special = any([1 if c in string.ascii_punctuation else 0 for c in password])
-digits = any([1 if c in string.ascii_digits else 0 for c in password])
 
+#string ascii_lowercase will give the lowercase letters ‘abcdefghijklmnopqrstuvwxyz’.
+lower_case = any([1 if c in string.ascii_lowercase else 0 for c in password])
+
+#String of ASCII characters which are considered punctuation characters in the C locale: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~.
+special = any([1 if c in string.ascii_punctuation else 0 for c in password])
+
+#In Python3, string.digits is a pre-initialized string used as string constant. In Python, string.digits will give the lowercase letters ‘0123456789’.
+digits = any([1 if c in string.ascii_digits else 0 for c in password])
 
 characters = [upper_case, lower_case, special, digits]
 
