@@ -7,7 +7,9 @@ from cryptography.fernet import Fernet
 
 class PassswordManager :
 
-    def __init__(self):
+    #_init_ is called whenever a classes’ object is created.
+    #self represents a class’s instance and is required to access any variables or methods within the class.
+     def __init__(self):
         self.key = None
         self.password_file = None
         self.password_dict ={}
