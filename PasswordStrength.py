@@ -26,6 +26,7 @@ length =len(password)
 
 score = 0
 
+#File reading.
 with open('common.txt', 'r') as f:
     common = f.read().splitlines()
 
