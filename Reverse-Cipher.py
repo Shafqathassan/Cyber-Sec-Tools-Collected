@@ -1,4 +1,7 @@
+#text to encrypt stored in message variable below.
 message = 'This is program to explain reverse cipher.'
+
+#ciphered text using this algorithm
 translated = '' #cipher text is stored in this variable
 i = len(message) - 1
 
