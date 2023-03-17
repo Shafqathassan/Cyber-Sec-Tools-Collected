@@ -1,3 +1,7 @@
+#Author : ShafqatHassan
+#Dated : 16th; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
+
 #text to encrypt stored in message variable below.
 message = 'This is program to explain reverse cipher.'
 
