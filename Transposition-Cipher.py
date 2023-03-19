@@ -1,7 +1,7 @@
 #Author : ShafqatHassan
 #Dated : 17th; of Mar 2023
 #Repo : Shafqathassan/Cyber-Sec_Tools
-
+#Transposition Cipher is a cryptographic algo in which order of alphabets in plaintext is rearranged to form cipher text. In it, the actual plain text alphabets are not included.
 def split_len(seq, length):
    return [seq[i:i + length] for i in range(0, len(seq), length)]
 def encode(key, plaintext):
