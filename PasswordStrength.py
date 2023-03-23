@@ -1,6 +1,7 @@
 #Author : Shafqat hassan
 #Dated : 27th; of feb 2023
 #Repo : Shafqathassan/Cyber-Sec-Tools
+#Giving input the password to this program, it would depict the strength of password based on multi-parameters!
 
 import string
 
