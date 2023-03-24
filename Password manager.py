@@ -1,6 +1,7 @@
 #Author : ShafqatHassan
 #Dated : 28th; of Feb 2023
 #Repo : Shafqathassan/Cyber-Sec_Tools
+#This tool manages various accounts and password of the user.
 
 #Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key.
 from cryptography.fernet import Fernet
