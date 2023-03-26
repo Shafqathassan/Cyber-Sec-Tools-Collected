@@ -2,10 +2,10 @@
 # https://www.nostarch.com/crackingcodes/ (BSD Licensed)
 
 message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
-SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
+Symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
 
 # Loop through every possible key:
-for key in range(len(SYMBOLS)):
+for key in range(len(Symbols)):
     # It is important to set translated to the blank string so that the
     # previous iteration's value for translated is cleared:
    translated = ''
@@ -14,15 +14,15 @@ for key in range(len(SYMBOLS)):
 
    # Loop through each symbol in message:
     for symbol in message:
-        if symbol in SYMBOLS:
-          symbolIndex = SYMBOLS.find(symbol)
+        if symbol in Symbols:
+          symbolIndex = Symbols.find(symbol)
             translatedIndex = symbolIndex - key
              # Handle the wraparound:
             if translatedIndex < 0:
-                 translatedIndex = translatedIndex + len(SYMBOLS)
+                 translatedIndex = translatedIndex + len(Symbols)
 
              # Append the decrypted symbol:
-             translated = translated + SYMBOLS[translatedIndex]
+             translated = translated + Symbols[translatedIndex]
          else:
             # Append the symbol without encrypting/decrypting:
             translated = translated + symbol
