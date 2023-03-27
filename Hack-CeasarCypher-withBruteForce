@@ -1,3 +1,8 @@
+#Author : ShafqatHassan
+#Dated : 27th; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
+#Credit :  Cracking Codes with Python: An Introduction to Building and Breaking Ciphers (By Al Sweigart)
+
 
 message = 'guv6Jv6Jz!J6rp5r7Jzr66ntrM'
 Symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.'
