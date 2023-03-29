@@ -1,3 +1,8 @@
+#Author : ShafqatHassan
+#Dated : 1st; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
+#HelpFrom : Georgia Weidman and HeathAdams 
+
 #!/bin/bash
 
 if ["$1" == " "]
