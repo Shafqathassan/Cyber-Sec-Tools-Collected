@@ -1,4 +1,8 @@
-#!/bin/python3
+#!/bin/python
+
+#Author : ShafqatHassan
+#Dated : 31st; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
 
 import sys
 import socket
