@@ -1,4 +1,8 @@
-# Transposition Cipher Decryption
+#Author : ShafqatHassan
+#Dated : 27th; of Mar 2023
+#Repo : Shafqathassan/Cyber-Sec_Tools
+#Credit :  Cracking Codes with Python: An Introduction to Building and Breaking Ciphers (By Al Sweigart)
+#https://inventwithpython.com/cracking/chapter8.html
 
 import math, pyperclip
 
