@@ -4,6 +4,7 @@
 #Credit :  Cracking Codes with Python: An Introduction to Building and Breaking Ciphers (By Al Sweigart)
 #https://inventwithpython.com/cracking/chapter8.html
 
+#Pyperclip is a cross-platform Python module for copy and paste clipboard functions.
 import math, pyperclip
 
 def main():
