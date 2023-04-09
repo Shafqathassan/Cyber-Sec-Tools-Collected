@@ -3,6 +3,7 @@
 #Repo : Shafqathassan/Cyber-Sec_Tools
 #Credit : Georgia Weidman and HeathAdams 
 
+#Shebang (for more info : https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjBzO_tsJ3-AhUvplYBHVQjCAwQFnoECA8QAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FShebang_(Unix)&usg=AOvVaw2JO5JC-ojjNYqhPOD6J7aP )
 #!/bin/bash
 
 if ["$1" == " "]
