@@ -2,8 +2,11 @@
 #Dated : 11th; of Apr 2023
 #Repo : Shafqathassan/Cyber-Sec_Tools
 
-# AES 256 encryption/decryption using pycrypto library
- 
+#AES 256 encryption/decryption using pycrypto library.
+#The Python hashlib module is an interface for hashing messages easily.
+#This contains numerous methods which will handle hashing any raw message in an encrypted format. 
+
+
 import base64
 import hashlib
 from Crypto.Cipher import AES
