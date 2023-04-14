@@ -12,6 +12,7 @@
 import base64
 import hashlib
 from Crypto.Cipher import AES
+#The random module in Python defines a series of functions for generating or manipulating random integers.
 from Crypto import Random
  
 BLOCK_SIZE = 16
