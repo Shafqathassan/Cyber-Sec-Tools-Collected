@@ -11,6 +11,7 @@
 
 import base64
 import hashlib
+#https://pycryptodome.readthedocs.io/en/latest/src/cipher/cipher.html
 from Crypto.Cipher import AES
 #The random module in Python defines a series of functions for generating or manipulating random integers.
 from Crypto import Random
