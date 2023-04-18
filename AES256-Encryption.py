@@ -16,6 +16,7 @@ from Crypto.Cipher import AES
 #The random module in Python defines a series of functions for generating or manipulating random integers.
 from Crypto import Random
  
+ # lambda keyword is used to define an anonymous function in Python. 
 BLOCK_SIZE = 16
 pad = lambda s: s + (BLOCK_SIZE - len(s) % BLOCK_SIZE) * chr(BLOCK_SIZE - len(s) % BLOCK_SIZE)
 unpad = lambda s: s[:-ord(s[len(s) - 1:])]
