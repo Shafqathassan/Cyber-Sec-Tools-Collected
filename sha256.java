@@ -1,7 +1,8 @@
-##From GeeksForGeeks
-#https://www.geeksforgeeks.org/sha-256-hash-in-java/
-#SHA 256 algorithm, is one of the most widely used hash algorithms. While there are other variants, SHA 256 has been at the forefront of real-world applications.
+//From GeeksForGeeks
+//https://www.geeksforgeeks.org/sha-256-hash-in-java/
+//SHA 256 algorithm, is one of the most widely used hash algorithms. While there are other variants, SHA 256 has been at the forefront of real-world applications.
 
+//NIO was developed to allow Java programmers to implement high-speed I/O without using the custom native code. 
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
