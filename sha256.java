@@ -3,6 +3,7 @@
 //SHA 256 algorithm, is one of the most widely used hash algorithms. While there are other variants, SHA 256 has been at the forefront of real-world applications.
 
 //NIO was developed to allow Java programmers to implement high-speed I/O without using the custom native code. 
+//for more details on NIO visit : https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
