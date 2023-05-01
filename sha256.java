@@ -6,6 +6,7 @@
 //for more details on NIO visit : https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
+//Message digests are secure one-way hash functions that take arbitrary-sized data and output a fixed-length hash value.
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
