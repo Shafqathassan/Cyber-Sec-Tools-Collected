@@ -4,6 +4,8 @@
 # Python 3 code to demonstrate
 # SHA hash algorithms.
 
+#hashlib implements a common interface to many different secure hash and message digest algorithms.
+#https://docs.python.org/3/library/hashlib.html
 import hashlib
 
 # initializing string
