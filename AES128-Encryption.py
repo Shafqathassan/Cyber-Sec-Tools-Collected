@@ -1,3 +1,5 @@
+##AES 128 encryption.
+
 from cryptography.fernet import Fernet
 #The cryptography.hazmat.primitives.ciphers module in Python is part of the Cryptography library and provides a low-level interface for working with symmetric encryption algorithms.
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
