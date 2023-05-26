@@ -24,5 +24,5 @@ while True:
     print ("Recieved connection from "% str(address))
     
     message = 'Thank you for connecting to the server :)' + "\r\n"
-    clientsocket.send(message)
+    clientsocket.send(message/encrypt('ascii'))
     clientsocket.close()
