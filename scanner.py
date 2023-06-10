@@ -3,7 +3,7 @@
 #Author : ShafqatHassan
 #Dated : 31st; of Mar 2023
 #Repo : Shafqathassan/Cyber-Sec_Tools
-#Credit: TheCyberMentor
+#Credit: TheCyberMentor https://youtube.com/@TCMSecurityAcademy
 
 import sys
 import socket
